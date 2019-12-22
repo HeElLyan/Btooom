@@ -1,4 +1,4 @@
-package sprite;
+package sample.sprite;
 
 import javafx.animation.Animation;
 import javafx.animation.Transition;
@@ -20,6 +20,7 @@ public class Test extends Application {
     private static final int OFFSET_Y =  190;
     private static final int WIDTH    = 50;
     private static final int HEIGHT   = 50;
+
 
     @Override
     public void start(Stage primaryStage) {

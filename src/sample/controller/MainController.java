@@ -38,35 +38,35 @@ public class MainController extends Controller{
             load(FxmlPaths.SELECTGAME);
         });
 
-        startGameButton.setOnMouseEntered(event -> {
-            shake(startGameButton);
-        });
+//        startGameButton.setOnMouseEntered(event -> {
+//            shake(startGameButton);
+//        });
 
         helpButton.setOnAction(event -> {
             helpButton.getScene().getWindow().hide();
             load(FxmlPaths.HELP);
         });
 
-        helpButton.setOnMouseEntered(event -> {
-            shake(helpButton);
-        });
+//        helpButton.setOnMouseEntered(event -> {
+//            shake(helpButton);
+//        });
 
         creditsButton.setOnAction(event -> {
             creditsButton.getScene().getWindow().hide();
             load(FxmlPaths.CREDITS);
         });
 
-        creditsButton.setOnMouseEntered(event -> {
-            shake(creditsButton);
-        });
+//        creditsButton.setOnMouseEntered(event -> {
+//            shake(creditsButton);
+//        });
 
         quitButton.setOnAction(event -> {
             //TODO:method stop: Main.stop()
             System.out.println("QUIT");
         });
 
-        quitButton.setOnMouseEntered(event -> {
-            shake(quitButton);
-        });
+//        quitButton.setOnMouseEntered(event -> {
+//            shake(quitButton);
+//        });
     }
 }

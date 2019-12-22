@@ -1,11 +1,9 @@
 package sample.controller;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
 import constants.FxmlPaths;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import sample.sprite.Main;
 
 public class ChooseGameController extends Controller{
 
@@ -26,22 +24,22 @@ public class ChooseGameController extends Controller{
 
     @FXML
     void initialize() {
+//        playWithFriend.setOnMouseEntered(event -> {
+//            shake(playWithFriend);
+//        });
+
         playWithFriend.setOnAction(event -> {
-            playWithFriend.getScene().getWindow().hide();
-//            load(FxmlPaths.SELECTCHARACTER);
+//            playWithFriend.getScene().getWindow().hide();
+//            Main.startGame();
         });
 
-        playWithFriend.setOnMouseEntered(event -> {
-            shake(playWithFriend);
-        });
+//        playWithBot.setOnMouseEntered(event -> {
+//            shake(playWithBot);
+//        });
 
         playWithBot.setOnAction(event -> {
-            playWithBot.getScene().getWindow().hide();
-//            load(FxmlPaths.SELECTCHARACTER);
-        });
-
-        playWithBot.setOnMouseEntered(event -> {
-            shake(playWithBot);
+//            playWithBot.getScene().getWindow().hide();
+//            Main.startGame();
         });
 
         backToMenu.setOnAction(event -> {
