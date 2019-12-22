@@ -1,4 +1,4 @@
-package Test;
+package sprite;
 
 import javafx.animation.Animation;
 import javafx.animation.Transition;
@@ -13,13 +13,13 @@ import javafx.util.Duration;
 
 
 public class Test extends Application {
-    private  final Image IMAGE = new Image(getClass().getResourceAsStream("/assets/pony.png"));
-    private static final int COLUMNS  =  3;
-    private static final int COUNT    =  12;
-    private static final int OFFSET_X =  288;
-    private static final int OFFSET_Y =  0;
-    private static final int WIDTH    = 48;
-    private static final int HEIGHT   = 48;
+    private  final Image IMAGE = new Image(getClass().getResourceAsStream("/assets/stars.png"));
+    private static final int COLUMNS  =  1;
+    private static final int COUNT    =  1;
+    private static final int OFFSET_X =  670;
+    private static final int OFFSET_Y =  190;
+    private static final int WIDTH    = 50;
+    private static final int HEIGHT   = 50;
 
     @Override
     public void start(Stage primaryStage) {
